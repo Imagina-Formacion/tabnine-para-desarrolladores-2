@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Usuarios</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Usuarios JSON</h1>
+        <button id="generate-btn">Generar usuarios</button>
+        <pre id="json-output"></pre>
+    </div>
+
+    <script>
+        document.getElementById('generate-btn').addEventListener('click', () => {
+            const output = document.getElementById('json-output');
+            output.textContent = 'Generando...';
+
+            fetch('/generate-users')
+                .then(response => response.json())
+                .then(data => {
+                    // Format JSON for readable display
+                    output.textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    console.error('Error al generar usuarios:', error);
+                    output.textContent = 'Error al generar los datos. Inténtalo de nuevo.';
+                });
+        });
+    </script>
+</body>
+</html>

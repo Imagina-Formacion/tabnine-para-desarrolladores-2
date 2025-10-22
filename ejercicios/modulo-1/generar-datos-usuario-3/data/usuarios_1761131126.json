@@ -1,0 +1,72 @@
+[
+    {
+        "nombre": "Pablo",
+        "apellido": "Mayol",
+        "email": "eelias@example.org",
+        "localidad": "Huesca",
+        "fechaDeNacimiento": "1972-10-30"
+    },
+    {
+        "nombre": "Lisandro",
+        "apellido": "Coloma",
+        "email": "tbarranco@example.org",
+        "localidad": "Ciudad",
+        "fechaDeNacimiento": "1985-05-20"
+    },
+    {
+        "nombre": "Aitana",
+        "apellido": "Gimeno",
+        "email": "saturnina65@example.com",
+        "localidad": "Cádiz",
+        "fechaDeNacimiento": "1980-05-09"
+    },
+    {
+        "nombre": "Gabriel",
+        "apellido": "Querol",
+        "email": "javier48@example.org",
+        "localidad": "Badajoz",
+        "fechaDeNacimiento": "1984-03-06"
+    },
+    {
+        "nombre": "Jacinta",
+        "apellido": "Falcón",
+        "email": "fgonzalo@example.net",
+        "localidad": "La Coruña",
+        "fechaDeNacimiento": "1985-04-22"
+    },
+    {
+        "nombre": "Clímaco",
+        "apellido": "Reig",
+        "email": "amancebo@example.org",
+        "localidad": "Melilla",
+        "fechaDeNacimiento": "1962-01-12"
+    },
+    {
+        "nombre": "Teresita",
+        "apellido": "Barberá",
+        "email": "maria-teresasantamaria@example.net",
+        "localidad": "Valladolid",
+        "fechaDeNacimiento": "1968-03-31"
+    },
+    {
+        "nombre": "Dan",
+        "apellido": "Escudero",
+        "email": "tpedrero@example.com",
+        "localidad": "Lugo",
+        "fechaDeNacimiento": "1955-09-28"
+    },
+    {
+        "nombre": "Ángel",
+        "apellido": "Tejada",
+        "email": "juan78@example.com",
+        "localidad": "Almería",
+        "fechaDeNacimiento": "1943-08-13"
+    },
+    {
+        "nombre": "Selena",
+        "apellido": "Toledo",
+        "email": "felicianolarranaga@example.com",
+        "localidad": "Granada",
+        "fechaDeNacimiento": "1981-02-11"
+    }
+]

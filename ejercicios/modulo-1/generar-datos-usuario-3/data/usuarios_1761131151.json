@@ -1,0 +1,142 @@
+[
+    {
+        "nombre": "Américo",
+        "apellido": "Mosquera",
+        "email": "itorrent@example.org",
+        "localidad": "Soria",
+        "fechaDeNacimiento": "1951-12-16"
+    },
+    {
+        "nombre": "Raquel",
+        "apellido": "Batalla",
+        "email": "rufinagiron@example.com",
+        "localidad": "Almería",
+        "fechaDeNacimiento": "2003-06-20"
+    },
+    {
+        "nombre": "Ximena",
+        "apellido": "Chico",
+        "email": "julio-cesar07@example.com",
+        "localidad": "La Coruña",
+        "fechaDeNacimiento": "1942-04-28"
+    },
+    {
+        "nombre": "Benita",
+        "apellido": "Exposito",
+        "email": "ycalatayud@example.com",
+        "localidad": "Huesca",
+        "fechaDeNacimiento": "1937-03-28"
+    },
+    {
+        "nombre": "Victor Manuel",
+        "apellido": "Ramis",
+        "email": "cbernal@example.com",
+        "localidad": "Segovia",
+        "fechaDeNacimiento": "1991-05-28"
+    },
+    {
+        "nombre": "Ildefonso",
+        "apellido": "Iñiguez",
+        "email": "octavionogueira@example.net",
+        "localidad": "Ceuta",
+        "fechaDeNacimiento": "1989-10-15"
+    },
+    {
+        "nombre": "Moreno",
+        "apellido": "Ayllón",
+        "email": "marcial86@example.com",
+        "localidad": "Segovia",
+        "fechaDeNacimiento": "2007-02-27"
+    },
+    {
+        "nombre": "Natividad",
+        "apellido": "Conesa",
+        "email": "obanos@example.org",
+        "localidad": "Valladolid",
+        "fechaDeNacimiento": "1971-06-08"
+    },
+    {
+        "nombre": "Úrsula",
+        "apellido": "Ferrera",
+        "email": "yheredia@example.com",
+        "localidad": "La Coruña",
+        "fechaDeNacimiento": "1939-07-24"
+    },
+    {
+        "nombre": "Claudio",
+        "apellido": "Antúnez",
+        "email": "vicente87@example.net",
+        "localidad": "Santa Cruz de Tenerife",
+        "fechaDeNacimiento": "1967-10-16"
+    },
+    {
+        "nombre": "Begoña",
+        "apellido": "Hernández",
+        "email": "ritabenitez@example.com",
+        "localidad": "Vizcaya",
+        "fechaDeNacimiento": "1935-12-04"
+    },
+    {
+        "nombre": "Judith",
+        "apellido": "Múñiz",
+        "email": "lborrego@example.com",
+        "localidad": "Zamora",
+        "fechaDeNacimiento": "1983-10-20"
+    },
+    {
+        "nombre": "Amanda",
+        "apellido": "Río",
+        "email": "ijulia@example.org",
+        "localidad": "La Rioja",
+        "fechaDeNacimiento": "1985-06-07"
+    },
+    {
+        "nombre": "Jordana",
+        "apellido": "Carmona",
+        "email": "donato59@example.org",
+        "localidad": "Alicante",
+        "fechaDeNacimiento": "1964-10-11"
+    },
+    {
+        "nombre": "Isaías",
+        "apellido": "Chaparro",
+        "email": "donato52@example.com",
+        "localidad": "La Rioja",
+        "fechaDeNacimiento": "1995-12-07"
+    },
+    {
+        "nombre": "Amanda",
+        "apellido": "Roura",
+        "email": "adalberto89@example.net",
+        "localidad": "Pontevedra",
+        "fechaDeNacimiento": "1965-11-24"
+    },
+    {
+        "nombre": "Adora",
+        "apellido": "Uriarte",
+        "email": "apelaez@example.net",
+        "localidad": "Cáceres",
+        "fechaDeNacimiento": "1968-08-16"
+    },
+    {
+        "nombre": "África",
+        "apellido": "Barral",
+        "email": "florinaalbero@example.net",
+        "localidad": "Zaragoza",
+        "fechaDeNacimiento": "1990-03-28"
+    },
+    {
+        "nombre": "Mercedes",
+        "apellido": "Puga",
+        "email": "dieguezedgardo@example.com",
+        "localidad": "Santa Cruz de Tenerife",
+        "fechaDeNacimiento": "1952-08-15"
+    },
+    {
+        "nombre": "Eva",
+        "apellido": "Elorza",
+        "email": "jovita99@example.com",
+        "localidad": "Salamanca",
+        "fechaDeNacimiento": "2000-02-10"
+    }
+]

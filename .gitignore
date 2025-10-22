@@ -1,0 +1,70 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDEs - JetBrains
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# VSCode
+.vscode/
+
+# Otros editores
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+
+# Temporal files
+*.tmp
+*.temp
+
+# Keep .ide-config (excepción explícita)
+!.ide-config/
