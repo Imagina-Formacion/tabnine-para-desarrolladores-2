@@ -1,25 +1,23 @@
 # ej-m5-dry/web_handler.py
+from utils import parse_user_data
+
+# ej-m5-dry/web_handler.py
+from utils import parse_user_data
 
 def handle_web_user(form_data: dict):
     """Procesa un usuario que llega desde un formulario web."""
+    try:
+        user = parse_user_data(form_data)
+    except ValueError as e:
+        # Simplificamos el mensaje de error para la URL
+        error_msg = 'invalid_data'
+        if 'corto' in str(e):
+            error_msg = 'username_corto'
+        elif 'inválido' in str(e):
+            error_msg = 'email_invalido'
+        return {"redirect_to": f"/error?msg={error_msg}"}
     
-    # --- INICIO DE LÓGICA DUPLICADA ---
-    # Validación y normalización de datos de usuario
-    if 'username' not in form_data or not form_data['username']:
-        username = 'guest'
-    else:
-        username = form_data['username'].strip().lower()
-    
-    if 'email' in form_data:
-        email = form_data['email'].strip().lower()
-    else:
-        email = None
-    
-    if len(username) < 3:
-        return {"redirect_to": "/error?msg=username_corto"}
-    # --- FIN DE LÓGICA DUPLICADA ---
-    
-    print(f"WEB: Procesando usuario '{username}' con email '{email}'")
+    print(f"WEB: Procesando usuario '{user.username}' con email '{user.email}'")
     # ...
     # Lógica específica de la web (renderizar plantilla, etc.)...
     # ...
