@@ -18,7 +18,7 @@ def sum_even_numbers(numbers: list[int]) -> int:
     return even_sum
 
 numbers = [random.randint(1, 100) for _ in range(10)]
-print(f"La suma de los números pares es: {sum_even_numbers(numbers)}")
+#  print(f"La suma de los números pares es: {sum_even_numbers(numbers)}")
 
 def is_valid_email(email: str) -> bool:
     """
@@ -38,7 +38,7 @@ def is_valid_email(email: str) -> bool:
 
 emails = ['test@example.com', 'test@.com', 'test@example', 'test@example.', 'test@.com@', 'test@.com@.com', 'test@.com@example']
 for email in emails:
-    print(f"El email '{email}' es válido: {is_valid_email(email)}")
+   print(f"El email '{email}' es válido: {is_valid_email(email)}")
 
 def find_errors_in_log(filepath: str) -> list[str]:
     """
@@ -61,7 +61,7 @@ def find_errors_in_log(filepath: str) -> list[str]:
 filepath = 'ejercicios/modulo-4/debug.log'
 print(f"Líneas que contienen la palabra 'error' en '{filepath}':")
 for line in find_errors_in_log(filepath):
-    print(line)
+   print(line)
 
 def get_full_name(first_name: str, last_name: str) -> str:
     """
@@ -75,3 +75,15 @@ def get_full_name(first_name: str, last_name: str) -> str:
         str: El nombre completo.
     """
     return f"{first_name} {last_name}"
+
+
+#Función para convertir un string como "Hola mundo" en "hola-mundo" simulando la creación se slugs.
+def convert_to_slug(string: str) -> str:
+    # Elimina caracteres especiales y caracteres no alfabéticos.
+    cleaned_string = re.sub(r'[^a-zA-Z0-9 ]+', '', string)
+    # Convierte los espacios en guiones bajos.
+    slug = cleaned_string.lower().replace(' ', '-')
+    return slug
+
+string = "Estamos comprobando las funcionalidades usando Tabnine AI para Desarrolladores"
+print(f"El slug de '{string}' es: {convert_to_slug(string)}")
