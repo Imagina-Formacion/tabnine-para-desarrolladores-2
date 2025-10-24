@@ -1,0 +1,21 @@
+import requests
+import pandas as pd
+
+url = "https://api.github.com/users/google"
+
+response = requests.get(url)
+data = response.json()
+
+print("Name:", data["name"])
+print("Company:", data["company"])
+
+data = response.json()
+
+data = { 'col1': [1,2], 'col2': [3,4] }
+df =pd.DataFrame(data)
+
+print(df.head(), df.describe(), df.columns())
+
+
+
+
